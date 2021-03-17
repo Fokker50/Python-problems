@@ -1,1 +1,9 @@
+if __name__=='__main__':
+    cases = [
+        ("abcd efgh", "dcba hgfe"),
+        ("a1bcd efg!h", "dlcba hgf!e"),
+        (" ", " "),
+    ]
 
+    for text, reversed_text in cases:
+        assert your_function(text) == reversed_text
